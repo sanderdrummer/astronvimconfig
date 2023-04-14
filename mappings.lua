@@ -23,10 +23,13 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     -- harpoon
-    ["<leader>q"] = {
+    ["<leader>a"] = {
       function() require("harpoon.mark").add_file() end,
     },
     ["<C-e>"] = {
+      function() require("harpoon.ui").toggle_quick_menu() end,
+    },
+    ["<leader>q"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
     ["<leader>,"] = {
