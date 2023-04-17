@@ -6,6 +6,10 @@
 return {
   -- first key is the mode
   n = {
+    ["dd"] = { '"_dd' },
+    ["d"] = { '"_d' },
+    ["D"] = { '"_D' },
+    ["x"] = { '"_x' },
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
@@ -47,6 +51,12 @@ return {
     ["<leader>t"] = { "<cmd>!kitty &<cr>" },
     ["<leader>d"] = { "<C-o>" },
     ["<leader>dd"] = { "<C-i>" },
+  },
+  v = {
+    ["dd"] = { '"_dd' },
+    ["d"] = { '"_d' },
+    ["D"] = { '"_D' },
+    ["x"] = { '"_x' },
   },
   t = {
     -- setting a mapping to false will disable it
