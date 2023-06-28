@@ -8,6 +8,7 @@ return {
     spelllang = "en_us",
     signcolumn = "auto", -- sets vim.opt.signColumn to auto
     wrap = false, -- sets vim.opt.wrap
+    swapfile = false,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
