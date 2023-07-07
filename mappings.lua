@@ -28,10 +28,7 @@ return {
     ["<leader>a"] = {
       function() require("harpoon.mark").add_file() end,
     },
-    ["<C-e>"] = {
-      function() require("harpoon.ui").toggle_quick_menu() end,
-    },
-    ["<leader>q"] = {
+    ["<C-a>"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
     ["<leader>,"] = {
