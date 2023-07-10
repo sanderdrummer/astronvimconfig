@@ -36,4 +36,28 @@ return {
     lazy = false,
     config = function() require("neoclip").setup() end,
   },
+  {
+    "m4xshen/hardtime.nvim",
+    lazy = false,
+    config = function()
+      require("hardtime").setup {
+        disabled_keys = {},
+      }
+    end,
+  },
+
+  {
+    "princejoogie/dir-telescope.nvim",
+    config = function()
+      require("dir-telescope").setup {
+        -- these are the default options set
+        hidden = true,
+        no_ignore = false,
+        show_preview = true,
+      }
+    end,
+  },
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+  },
 }

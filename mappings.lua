@@ -46,6 +46,11 @@ return {
     ["<leader>t"] = { "<cmd>!kitty &<cr>" },
     ["<leader>d"] = { "<C-o>" },
     ["<leader>dd"] = { "<C-i>" },
+    ["<leader>e"] = { "<cmd>Telescope file_browser path=%:p:h select_buffer=true<CR>" },
+    ["<leader>fe"] = { "<cmd>Telescope file_browser path=%:p:h select_buffer=true<CR>" },
+    ["<leader>fE"] = { "<cmd>Telescope file_browser<CR>" },
+    ["<leader>E"] = { "<cmd>Telescope file_browser<CR>" },
+    ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
   },
   v = {
     ["x"] = { '"_x' },
