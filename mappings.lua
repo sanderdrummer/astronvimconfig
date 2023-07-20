@@ -51,6 +51,9 @@ return {
     ["<leader>fE"] = { "<cmd>Telescope file_browser<CR>" },
     ["<leader>E"] = { "<cmd>Telescope file_browser<CR>" },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
+    -- prime scrolling
+    ["<C-d>"] = { "<C-d>zz" },
+    ["<C-u>"] = { "<C-u>zz" },
   },
   v = {
     ["x"] = { '"_x' },

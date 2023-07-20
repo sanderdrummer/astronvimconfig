@@ -41,7 +41,11 @@ return {
     lazy = false,
     config = function()
       require("hardtime").setup {
-        disabled_keys = {},
+        disabled_keys = {
+          ["<UP>"] = {},
+          ["<DOWN>"] = {},
+        },
+        disable_mouse = false,
       }
     end,
   },
