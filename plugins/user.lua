@@ -61,7 +61,7 @@ return {
       }
     end,
   },
-  {
-    "nvim-telescope/telescope-file-browser.nvim",
-  },
+  -- {
+  --   "nvim-telescope/telescope-file-browser.nvim",
+  -- },
 }
