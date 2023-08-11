@@ -31,21 +31,6 @@ return {
     ["<C-a>"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
-    ["<leader>,"] = {
-      function() require("spectre").open() end,
-    },
-    ["<leader>,w"] = {
-      function() require("spectre").open_visual { select_word = true } end,
-    },
-    ["<leader>,f"] = {
-      function() require("spectre").open_file_search() end,
-    },
-    -- best remap
-    ["<leader>p"] = { ":lua require('telescope').extensions.neoclip.default() <cr>" },
-    -- open terminal
-    ["<leader>t"] = { "<cmd>!kitty &<cr>" },
-    ["<leader>d"] = { "<C-o>" },
-    ["<leader>dd"] = { "<C-i>" },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
     -- prime scrolling
     ["<C-d>"] = { "<C-d>zz" },
