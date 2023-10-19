@@ -25,16 +25,16 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     -- harpoon
-    ["<leader>a"] = {
+    ["<C-a>"] = {
       function() require("harpoon.mark").add_file() end,
     },
-    ["<C-a>"] = {
+    ["<leader>a"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
     -- prime scrolling
-    ["<C-d>"] = { "<C-d>zz" },
-    ["<C-u>"] = { "<C-u>zz" },
+    -- ["<C-d>"] = { "<C-d>zz" },
+    -- ["<C-u>"] = { "<C-u>zz" },
   },
   v = {
     ["x"] = { '"_x' },

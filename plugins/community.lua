@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.html-css" },
-  -- { import = "astrocommunity.editing-support.yanky" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.colorscheme.nord-nvim" },
@@ -19,7 +18,7 @@ return {
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.color.modes-nvim" },
   -- { import = "astrocommunity.utility.neodim" },
-  -- { import = "astrocommunity.scrolling.vim-smoothie" },
+  { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
--- { import = "astrocommunity.completion.copilot-lua-cmp" },
