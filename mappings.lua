@@ -8,7 +8,7 @@ return {
   n = {
     ["q"] = { "<Esc>" },
     ["x"] = { '"_x' },
-    -- second key is the lefthand side of the map
+    -- second key is the lfthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
@@ -21,10 +21,8 @@ return {
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
+    ["<leader>xc"] = { "<cmd>ZenMode <CR>" },
     ["<leader>b"] = { name = "Buffers" },
-    -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    -- harpoon
     ["<C-a>"] = {
       function() require("harpoon.mark").add_file() end,
     },
@@ -32,15 +30,8 @@ return {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
-    -- prime scrolling
-    -- ["<C-d>"] = { "<C-d>zz" },
-    -- ["<C-u>"] = { "<C-u>zz" },
   },
   v = {
     ["x"] = { '"_x' },
-  },
-  t = {
-    -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
   },
 }

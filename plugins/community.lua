@@ -21,6 +21,7 @@ return {
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { -- further customize the options set by the community
     "copilot.lua",
     opts = {
