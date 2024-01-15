@@ -26,31 +26,32 @@ return {
       }
     end,
   },
-  "psliwka/vim-smoothie",
+  -- "psliwka/vim-smoothie",
+  -- "MarcWeber/vim-addon-manager",
   "editorconfig/editorconfig-vim",
-  "edluffy/hologram.nvim",
-  "MunifTanjim/nui.nvim",
+  -- "edluffy/hologram.nvim",
+  -- "MunifTanjim/nui.nvim",
   {
     "AckslD/nvim-neoclip.lua",
     lazy = false,
     config = function() require("neoclip").setup() end,
   },
-  {
-    "m4xshen/hardtime.nvim",
-    lazy = false,
-    config = function()
-      require("hardtime").setup {
-        enabled = false,
-        disabled_keys = {
-          ["<LEFT>"] = {},
-          ["<RIGHT>"] = {},
-          ["<UP>"] = {},
-          ["<DOWN>"] = {},
-        },
-        disable_mouse = false,
-      }
-    end,
-  },
+  -- {
+  --   "m4xshen/hardtime.nvim",
+  --   lazy = false,
+  --   config = function()
+  --     require("hardtime").setup {
+  --       enabled = false,
+  --       disabled_keys = {
+  --         ["<LEFT>"] = {},
+  --         ["<RIGHT>"] = {},
+  --         ["<UP>"] = {},
+  --         ["<DOWN>"] = {},
+  --       },
+  --       disable_mouse = false,
+  --     }
+  --   end,
+  -- },
   {
     "princejoogie/dir-telescope.nvim",
     config = function()

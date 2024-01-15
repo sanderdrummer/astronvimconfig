@@ -29,6 +29,9 @@ return {
     ["<leader>a"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
+    ["<leader>ee"] = {
+      function() require("dropbar.api").pick() end,
+    },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
   },
   v = {
