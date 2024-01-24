@@ -36,6 +36,19 @@ return {
     lazy = false,
     config = function() require("neoclip").setup() end,
   },
+  {
+    "LintaoAmons/cd-project.nvim",
+    -- Don't need call the setup function if you think you are good with the default configuration
+    config = function()
+      require("cd-project").setup {
+        -- this json file is acting like a database to update and read the projects in real time.
+        -- So because it's just a json file, you can edit directly to add more paths you want manually
+        projects_config_filepath = vim.fs.normalize(vim.fn.stdpath "config" .. "/cd-project.nvim.json"),
+        -- this controls the behaviour of `CdProjectAdd` command about how to get the project directory
+        project_dir_pattern = { ".git", ".gitignore", "package.json" },
+      }
+    end,
+  },
   -- {
   --   "m4xshen/hardtime.nvim",
   --   lazy = false,
