@@ -26,29 +26,11 @@ return {
     ["<C-a>"] = {
       function() require("harpoon.mark").add_file() end,
     },
-    ["<Cmd+a>"] = {
-      function() require("harpoon.ui").toggle_quick_menu() end,
-    },
-    ["<Cmd>a"] = {
-      function() require("harpoon.ui").toggle_quick_menu() end,
-    },
-    ["<Cmd-a>"] = {
-      function() require("harpoon.ui").toggle_quick_menu() end,
-    },
-    ["<leader>a"] = {
+    ["<C-e>"] = {
       function() require("harpoon.ui").toggle_quick_menu() end,
     },
     ["<leader>ee"] = {
       function() require("dropbar.api").pick() end,
-    },
-    ["<leader>Sa"] = {
-      function() require("cd-project.api").add_current_project() end,
-    },
-    ["<leader>Sb"] = {
-      function() require("cd-project.api").back() end,
-    },
-    ["<leader>Ss"] = {
-      "<cmd>CdProject <CR>",
     },
     ["<leader>fd"] = { "<cmd>Telescope dir live_grep<CR>" },
   },
