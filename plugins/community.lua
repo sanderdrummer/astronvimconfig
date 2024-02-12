@@ -22,6 +22,8 @@ return {
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.pack.php" },
 
+  { import = "astrocommunity.media.image-nvim" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   -- { -- further customize the options set by the community
   --   "copilot.lua",
