@@ -21,8 +21,9 @@ return {
   { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.pack.php" },
-
   { import = "astrocommunity.media.image-nvim" },
+  -- DiffviewOpen
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   -- { -- further customize the options set by the community
