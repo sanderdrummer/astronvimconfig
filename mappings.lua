@@ -6,6 +6,7 @@
 return {
   -- first key is the mode
   n = {
+    [":"] = { ":Telescope cmdline<CR>" },
     ["q"] = { "<Esc>" },
     ["x"] = { '"_x' },
     -- second key is the lfthand side of the map

@@ -16,4 +16,5 @@ return {
       }
     end,
   },
+  { "jonarrien/telescope-cmdline.nvim" },
 }
