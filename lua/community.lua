@@ -21,7 +21,7 @@ return {
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.motion.leap-nvim" },
-  { import = "astrocommunity.motion.harpoon" },
+  -- { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.pack.php" },
   -- { import = "astrocommunity.media.image-nvim" },
