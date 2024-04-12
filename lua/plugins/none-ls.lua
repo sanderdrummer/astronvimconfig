@@ -35,7 +35,7 @@ return {
           condition = function(utils) return utils.root_has_file { "stylua.toml", ".stylua.toml" } end,
         },
         null_ls.builtins.formatting.prettier.with {
-          filetypes = { "yaml", "md", "markdown", "javascript" },
+          filetypes = { "yaml", "md", "markdown", "javascript", "typescript", "typescriptreact", "javascriptreact" },
         },
         null_ls.builtins.formatting.black,
       },
