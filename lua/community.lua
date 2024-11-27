@@ -18,9 +18,10 @@ return {
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.color.modes-nvim" },
   { import = "astrocommunity.scrolling.vim-smoothie" },
-  -- { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.motion.leap-nvim" },
   -- { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
@@ -30,4 +31,5 @@ return {
   -- { import = "astrocommunity.git.diffview-nvim" },
   -- { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
 }
