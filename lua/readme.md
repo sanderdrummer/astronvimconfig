@@ -1,1 +1,0 @@
-:MasonInstall typos-lsp
